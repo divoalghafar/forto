@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regina Gustiana Ningrum - Civil Engineering Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">Regina G.N</a>
+            
+            <!-- Desktop Menu -->
+            <div class="nav-menu" id="navMenu">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <button class="btn-hire">Hire Me</button>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="#about" class="mobile-nav-link">About</a>
+            <a href="#skills" class="mobile-nav-link">Skills</a>
+            <a href="#experience" class="mobile-nav-link">Experience</a>
+            <a href="#projects" class="mobile-nav-link">Projects</a>
+            <a href="#contact" class="mobile-nav-link">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <!-- Animated Background -->
+        <div class="hero-bg">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+
+        <!-- Grid Pattern -->
+        <div class="grid-pattern">
+            <svg width="100%" height="100%">
+                <defs>
+                    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+                        <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/>
+                    </pattern>
+                </defs>
+                <rect width="100%" height="100%" fill="url(#grid)" />
+            </svg>
+        </div>
+
+        <!-- Content -->
+        <div class="hero-content">
+            <div class="hero-badge">Fresh Graduate Civil Engineering</div>
+            
+            <h1 class="hero-title">
+                <span class="hero-name-1">Regina</span>
+                <br>
+                <span class="hero-name-2">Gustiana Ningrum</span>
+            </h1>
+
+            <div class="hero-subtitle">
+                <div class="line"></div>
+                <p>Building Construction Specialist</p>
+                <div class="line"></div>
+            </div>
+
+            <p class="hero-description">
+                Spesialisasi dalam 
+                <span class="highlight-cyan">desain pondasi</span> 
+                dan 
+                <span class="highlight-purple">kontrol kualitas konstruksi</span> 
+                dengan pengalaman magang di industri konstruksi global.
+            </p>
+
+            <div class="hero-buttons">
+                <button class="btn btn-primary">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="7 10 12 15 17 10"></polyline>
+                        <line x1="12" y1="15" x2="12" y2="3"></line>
+                    </svg>
+                    Download CV
+                </button>
+                <button class="btn btn-secondary">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                        <polyline points="15 3 21 3 21 9"></polyline>
+                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                    Lihat Proyek Magang
+                </button>
+                <button class="btn btn-secondary">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                    Hubungi Saya
+                </button>
+            </div>
+
+            <!-- Floating Elements -->
+            <div class="floating-element float-1">
+                <span>🏗️</span>
+            </div>
+            <div class="floating-element float-2">
+                <span>📐</span>
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <polyline points="19 12 12 19 5 12"></polyline>
+            </svg>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section section">
+        <div class="section-bg">
+            <div class="gradient-orb orb-4"></div>
+            <div class="gradient-orb orb-5"></div>
+        </div>
+
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">MENGENAL SAYA</span>
+                <h2 class="section-title">About Me</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="about-description">
+                <p>
+                    Lulusan D3 Teknik Konstruksi Gedung dari 
+                    <span class="highlight-polban">Politeknik Negeri Bandung (POLBAN)</span>. 
+                    Memiliki etos kerja disiplin yang terasah melalui pengalaman di lapangan (Quality Control) 
+                    dan industri kreatif (MNC Pictures).
+                </p>
+            </div>
+
+            <div class="expertise-grid">
+                <div class="expertise-card" data-gradient="cyan">
+                    <div class="expertise-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect>
+                            <line x1="8" y1="6" x2="16" y2="6"></line>
+                            <line x1="8" y1="10" x2="16" y2="10"></line>
+                            <line x1="8" y1="14" x2="12" y2="14"></line>
+                        </svg>
+                    </div>
+                    <h3>Geotechnical & Foundation Design</h3>
+                    <p>Desain struktur bawah dan analisis geoteknik</p>
+                </div>
+
+                <div class="expertise-card" data-gradient="purple">
+                    <div class="expertise-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 11l3 3L22 4"></path>
+                            <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
+                        </svg>
+                    </div>
+                    <h3>Quality Control & Site Supervision</h3>
+                    <p>Inspeksi material dan supervisi lapangan</p>
+                </div>
+
+                <div class="expertise-card" data-gradient="pink">
+                    <div class="expertise-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="3" y1="9" x2="21" y2="9"></line>
+                            <line x1="9" y1="21" x2="9" y2="9"></line>
+                        </svg>
+                    </div>
+                    <h3>Building Information Modeling (BIM)</h3>
+                    <p>Pemodelan 3D dengan Revit dan Tekla</p>
+                </div>
+
+                <div class="expertise-card" data-gradient="blue">
+                    <div class="expertise-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2a7 7 0 0 0-7 7c0 2.38 3 5.5 7 11 4-5.5 7-8.62 7-11a7 7 0 0 0-7-7z"></path>
+                            <circle cx="12" cy="9" r="2.5"></circle>
+                        </svg>
+                    </div>
+                    <h3>Work Safety (K3)</h3>
+                    <p>Keselamatan dan kesehatan kerja konstruksi</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section section">
+        <div class="section-bg">
+            <div class="gradient-orb orb-6"></div>
+            <div class="gradient-orb orb-7"></div>
+        </div>
+
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">KEAHLIAN TEKNIS</span>
+                <h2 class="section-title">Skills & Competencies</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <!-- Software Skills -->
+            <h3 class="subsection-title">
+                <div class="subsection-icon" data-gradient="cyan">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="16 18 22 12 16 6"></polyline>
+                        <polyline points="8 6 2 12 8 18"></polyline>
+                    </svg>
+                </div>
+                Software Teknis
+            </h3>
+
+            <div class="skills-grid">
+                <div class="skill-category-card">
+                    <h4>BIM & Design</h4>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>Autodesk Revit</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="90" data-gradient="cyan"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>Tekla Structures <span class="certified-badge">Certified</span></span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="85" data-gradient="cyan"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>AutoCAD</span>
+                            <span class="skill-percentage">88%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="88" data-gradient="cyan"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category-card">
+                    <h4>Analysis</h4>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>ETABS</span>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="80" data-gradient="purple"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category-card">
+                    <h4>Productivity</h4>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>Microsoft Excel</span>
+                            <span class="skill-percentage">92%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="92" data-gradient="pink"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span>Microsoft Office</span>
+                            <span class="skill-percentage">88%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="88" data-gradient="pink"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="additional-skills-grid">
+                <div class="additional-skill-card">
+                    <div class="subsection-icon" data-gradient="purple">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                        </svg>
+                    </div>
+                    <h3>Engineering Knowledge</h3>
+                    <div class="knowledge-list">
+                        <div class="knowledge-item">🔬 Pengujian material (Beton & Baja)</div>
+                        <div class="knowledge-item">🏗️ Metode pengecoran & pembesian</div>
+                        <div class="knowledge-item">📊 Analisis geoteknik</div>
+                    </div>
+                </div>
+
+                <div class="additional-skill-card">
+                    <div class="subsection-icon" data-gradient="blue">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 17H4a2 2 0 01-2-2V5a2 2 0 012-2h16a2 2 0 012 2v10a2 2 0 01-2 2h-1"></path>
+                            <polygon points="12 15 17 21 7 21 12 15"></polygon>
+                        </svg>
+                    </div>
+                    <h3>Bahasa</h3>
+                    <div class="language-item">
+                        <div class="language-header">
+                            <span>🇮🇩 Indonesian</span>
+                            <span>100%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="100" data-gradient="blue"></div>
+                        </div>
+                    </div>
+                    <div class="language-item">
+                        <div class="language-header">
+                            <span>🇺🇸 English</span>
+                            <span>60%</span>
+                        </div>
+                        <p class="language-detail">TOEFL 500</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="60" data-gradient="blue"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section section">
+        <div class="section-bg">
+            <div class="gradient-orb orb-8"></div>
+        </div>
+
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">PERJALANAN KARIR</span>
+                <h2 class="section-title">Experience Timeline</h2>
+                <div class="section-line gradient-purple"></div>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-line"></div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card" data-gradient="cyan">
+                        <div class="timeline-year">2024</div>
+                        <h3>PT Takenaka Indonesia</h3>
+                        <div class="timeline-meta">
+                            <span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                                </svg>
+                                Internship
+                            </span>
+                            <span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                                Indonesia
+                            </span>
+                        </div>
+
+                        <div class="position-item">
+                            <div class="position-header">
+                                <span class="position-icon">🔍</span>
+                                <h4>Quality Control</h4>
+                            </div>
+                            <ul>
+                                <li>Inspeksi material harian</li>
+                                <li>Supervisi fabrikasi baja</li>
+                                <li>Uji lab kuat tekan beton</li>
+                            </ul>
+                        </div>
+
+                        <div class="position-item">
+                            <div class="position-header">
+                                <span class="position-icon">🏗️</span>
+                                <h4>Site Engineer</h4>
+                            </div>
+                            <ul>
+                                <li>Supervisi metode pengecoran</li>
+                                <li>Pemodelan 3D menggunakan Revit untuk Water Treatment Zone</li>
+                            </ul>
+                        </div>
+
+                        <div class="position-item">
+                            <div class="position-header">
+                                <span class="position-icon">⚠️</span>
+                                <h4>K3 Staff</h4>
+                            </div>
+                            <ul>
+                                <li>Memimpin safety morning meeting</li>
+                                <li>Menyusun materi edukasi keselamatan kerja</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card" data-gradient="purple">
+                        <div class="timeline-year">2022-2023</div>
+                        <h3>MNC Pictures</h3>
+                        <div class="timeline-meta">
+                            <span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                                </svg>
+                                Creative Work
+                            </span>
+                            <span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                                Indonesia
+                            </span>
+                        </div>
+
+                        <div class="position-item">
+                            <div class="position-header">
+                                <span class="position-icon">🎬</span>
+                                <h4>Pemeran</h4>
+                            </div>
+                            <ul>
+                                <li>Bermain di "Suparman Reborn" 2 & 3</li>
+                                <li>Menunjukkan kemampuan adaptasi dan kolaborasi tim</li>
+                                <li>Disiplin jadwal yang tinggi</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section section">
+        <div class="section-bg">
+            <div class="gradient-orb orb-9"></div>
+            <div class="gradient-orb orb-10"></div>
+        </div>
+
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">PROYEK AKADEMIK</span>
+                <h2 class="section-title">Academic Projects</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card" data-gradient="cyan">
+                    <div class="project-header">
+                        <div class="project-icon">🏢</div>
+                        <span class="project-badge">Tugas Akhir</span>
+                    </div>
+                    <h3>Foundation Design For Water Treatment Zone Building</h3>
+                    <p class="project-subtitle">Beverage Factory Area in Karawang International City</p>
+                    <p class="project-description">
+                        Desain struktur bawah (pondasi) untuk area industri, mencakup perhitungan geoteknik dan pemodelan teknis.
+                    </p>
+                    <div class="project-details">
+                        <h4>Detail Proyek:</h4>
+                        <div class="detail-item">✓ Analisis geoteknik komprehensif</div>
+                        <div class="detail-item">✓ Perhitungan daya dukung pondasi</div>
+                        <div class="detail-item">✓ Pemodelan teknis struktur bawah</div>
+                        <div class="detail-item">✓ Desain untuk area industri</div>
+                    </div>
+                    <button class="btn-project">
+                        Lihat Detail
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                            <polyline points="15 3 21 3 21 9"></polyline>
+                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="project-card" data-gradient="purple">
+                    <div class="project-header">
+                        <div class="project-icon">📋</div>
+                        <span class="project-badge">Laporan Magang</span>
+                    </div>
+                    <h3>Laporan Magang: Underground Construction</h3>
+                    <p class="project-subtitle">PT Taiwan Hon Chuan Indonesia</p>
+                    <p class="project-description">
+                        Tinjauan komprehensif tentang proses konstruksi underground mencakup pembesian, bekisting, dan pengecoran.
+                    </p>
+                    <div class="project-details">
+                        <h4>Detail Proyek:</h4>
+                        <div class="detail-item">✓ Tinjauan sistem pembesian</div>
+                        <div class="detail-item">✓ Analisis metode bekisting</div>
+                        <div class="detail-item">✓ Evaluasi proses pengecoran</div>
+                        <div class="detail-item">✓ Dokumentasi quality control</div>
+                    </div>
+                    <button class="btn-project">
+                        Lihat Detail
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                            <polyline points="15 3 21 3 21 9"></polyline>
+                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications-section section">
+        <div class="section-bg">
+            <div class="gradient-orb orb-11"></div>
+            <div class="gradient-orb orb-12"></div>
+        </div>
+
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">PENCAPAIAN</span>
+                <h2 class="section-title">Certifications & Organizations</h2>
+                <div class="section-line gradient-yellow"></div>
+            </div>
+
+            <div class="certifications-grid">
+                <div class="cert-card" data-gradient="cyan">
+                    <div class="cert-header">
+                        <span class="cert-emoji">🎯</span>
+                        <div class="cert-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="8" r="7"></circle>
+                                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                            </svg>
+                        </div>
+                    </div>
+                    <span class="cert-badge">Professional Certification</span>
+                    <h3>Tekla Structures Fundamental</h3>
+                    <p class="cert-issuer">⭐ Trimble Inc</p>
+                </div>
+
+                <div class="cert-card" data-gradient="purple">
+                    <div class="cert-header">
+                        <span class="cert-emoji">🏗️</span>
+                        <div class="cert-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="8" r="7"></circle>
+                                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                            </svg>
+                        </div>
+                    </div>
+                    <span class="cert-badge">Professional Certification</span>
+                    <h3>SKK Pelaksana Lapangan Pekerjaan Gedung Madya</h3>
+                    <p class="cert-subtitle">Jenjang 5</p>
+                    <p class="cert-issuer">⭐ Kementrian PU</p>
+                </div>
+            </div>
+
+            <div class="organization-section">
+                <div class="subsection-icon" data-gradient="blue">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="9" cy="7" r="4"></circle>
+                        <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                        <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                    </svg>
+                </div>
+                <h3 class="subsection-title">Organisasi</h3>
+
+                <div class="organization-card">
+                    <div class="org-header">
+                        <span class="org-logo">🎓</span>
+                        <h4>HIMAS POLBAN</h4>
+                    </div>
+                    <div class="org-roles">
+                        <div class="org-role">
+                            <span class="role-icon">💰</span>
+                            <div>
+                                <h5>Bendahara Kaderisasi</h5>
+                                <p>Mengelola anggaran untuk 750+ orang</p>
+                            </div>
+                        </div>
+                        <div class="org-role">
+                            <span class="role-icon">📊</span>
+                            <div>
+                                <h5>Koordinator Fundraising</h5>
+                                <p>Mengkoordinir kegiatan penggalangan dana</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section section">
+        <div class="section-bg">
+            <div class="gradient-orb orb-13"></div>
+            <div class="gradient-orb orb-14"></div>
+        </div>
+
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">HUBUNGI SAYA</span>
+                <h2 class="section-title">Let's Work Together</h2>
+                <div class="section-line"></div>
+                <p class="section-description">
+                    Tertarik untuk berkolaborasi atau mendiskusikan proyek? Jangan ragu untuk menghubungi saya.
+                </p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-card" data-gradient="cyan">
+                    <div class="contact-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                    </div>
+                    <h3>Lokasi</h3>
+                    <p>Bandung, Jawa Barat</p>
+                </div>
+
+                <a href="mailto:reginagustrianann@gmail.com" class="contact-card" data-gradient="purple">
+                    <div class="contact-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                    </div>
+                    <h3>Email</h3>
+                    <p>reginagustrianann@gmail.com</p>
+                </a>
+
+                <a href="https://linkedin.com/in/reginagustriana" target="_blank" class="contact-card" data-gradient="blue">
+                    <div class="contact-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                    </div>
+                    <h3>LinkedIn</h3>
+                    <p>linkedin.com/in/reginagustriana</p>
+                </a>
+            </div>
+
+            <div class="contact-form-wrapper">
+                <h3 class="form-title">Kirim Pesan</h3>
+                <p class="form-subtitle">Saya akan merespon sesegera mungkin</p>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nama</label>
+                        <input type="text" id="name" placeholder="Nama Anda" required>
+                        <div class="input-line"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="email@example.com" required>
+                        <div class="input-line"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Pesan</label>
+                        <textarea id="message" rows="5" placeholder="Tulis pesan Anda di sini..." required></textarea>
+                        <div class="input-line"></div>
+                    </div>
+
+                    <button type="submit" class="btn-submit">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="22" y1="2" x2="11" y2="13"></line>
+                            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                        </svg>
+                        Kirim Pesan
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <p class="footer-text">© 2026 Regina Gustiana Ningrum</p>
+                    <p class="footer-subtext">Building the future, one foundation at a time.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="mailto:reginagustrianann@gmail.com" class="social-link">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                    </a>
+                    <a href="https://linkedin.com/in/reginagustriana" target="_blank" class="social-link">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" id="scrollToTop">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="12" y1="19" x2="12" y2="5"></line>
+            <polyline points="5 12 12 5 19 12"></polyline>
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
